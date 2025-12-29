@@ -7,6 +7,9 @@ URL:		https://pypi.org/project/boolean.py/
 License:	BSD-2-Clause
 Group:		Development/Python
 BuildRequires:	python
+BuildRequires:	python%{pyver}dist(pip)
+BuildRequires:	python%{pyver}dist(setuptools)
+BuildRequires:	python%{pyver}dist(wheel)
 BuildSystem:	python
 BuildArch:	noarch
 
